@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 
-from processing.data_management import load_pipeline
-from config import config
+from regression_model.processing.data_management import load_pipeline
+from regression_model.config import config
 
 
 pipeline_file_name = "rf_regression_model.pkl"

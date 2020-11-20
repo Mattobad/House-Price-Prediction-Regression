@@ -14,5 +14,5 @@ def test_make_single_prediction():
 
     # Then
     assert subject is not None
-    assert isinstance(subject.get('predictions')[0], float)
-    assert math.ceil(subject.get('predictions')[0]) == 112476
+    assert isinstance(subject.get('prediction')[0], float)
+    assert math.ceil(subject.get('prediction')[0]) == 122974
