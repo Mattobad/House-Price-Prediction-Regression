@@ -9,14 +9,16 @@ Now, expanding the repo with following steps for deploying the model in producti
 
 - [x] Exploratory Analysis(Feature Engineering, Feature Selection, Hyperparameter optimization, Model development)
 - [x] Building Machine Learning Pipeline(Sckit-learn pipeline Architecture)
-- [] Model API development(Serving model through RESTful API)
-- [] Deploying to production(Web App)
+- [ ] Model API development(Serving model through RESTful API)
+- [ ] Deploying to production(Web App)
 
 
 ## Code and Resources Used
 **Python Version:** 3.7
+
 **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, randomforest-regressor, RandomizedSearchCV, scikit-learn pipeline, pytest
-** Resources:** [Udemy: Deployment of Machine Learning Models][course1]
+
+**Resources:** [Udemy: Deployment of Machine Learning Models][course1]
 
 [course1]:https://www.udemy.com/course/deployment-of-machine-learning-models/
 
