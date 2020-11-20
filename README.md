@@ -7,10 +7,13 @@ can be found in the jupyter_notebooks submodule.
 
 Now, expanding the repo with following steps for deploying the model in production:
 
-- [x] Exploratory Analysis(Feature Engineering, Feature Selection, Hyperparameter optimization, Model development)
-- [x] Building Machine Learning Pipeline(Sckit-learn pipeline Architecture)
-- [ ] Model API development(Serving model through RESTful API)
-- [ ] Deploying to production(Web App)
+:white_check_mark: Exploratory Analysis(Feature Engineering, Feature Selection, Hyperparameter optimization, Model development)
+
+:white_check_mark: Building Machine Learning Pipeline(Sckit-learn pipeline Architecture)
+
+:black_square_button: Model API development(Serving model through RESTful API)
+
+:black_square_button: Deploying to production(Web App)
 
 
 ## Code and Resources Used
