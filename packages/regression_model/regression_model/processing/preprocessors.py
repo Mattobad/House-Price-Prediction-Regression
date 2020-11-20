@@ -3,7 +3,7 @@ import pandas as pd
 
 from sklearn.base import BaseEstimator, TransformerMixin
 
-from regression_model.processing.errors import InvalidModelInputError
+from processing.errors import InvalidModelInputError
 
 
 # categorical missing value imputer

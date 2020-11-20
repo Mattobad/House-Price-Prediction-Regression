@@ -1,11 +1,12 @@
-import pathlib
+from pathlib import Path
+import os
 
-import regression_model
 
 
-PACKAGE_ROOT = pathlib.Path(regression_model.__file__).resolve().parent
-TRAINED_MODEL_DIR = PACKAGE_ROOT / "trained_models"
-DATASET_DIR = PACKAGE_ROOT / "datasets"
+PACKAGE_ROOT =Path(os.getcwd())
+TRAINED_MODEL_DIR = os.path.join(PACKAGE_ROOT,"regression_model","trained_models")
+DATASET_DIR = os.path.join(PACKAGE_ROOT,"regression_model","datasets") 
+
 
 # data
 TRAINING_DATA_FILE = "train.csv"

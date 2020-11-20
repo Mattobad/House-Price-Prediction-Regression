@@ -1,15 +1,20 @@
 import numpy as np
+import os
 
 from sklearn.model_selection import train_test_split
 
-from regression_model import pipeline
-from regression_model.processing.data_management import load_dataset, save_pipeline
-from regression_model.config import config
+import pipeline
+from processing.data_management import load_dataset, save_pipeline
+from config import config
 
 def run_training() -> None:
     """Train the model."""
 
     # read training data
+    print(f'Current directory: {os.getcwd()}')
+    print(f"Train path: {config.DATASET_DIR}")
+
+    
     data = load_dataset(file_name=config.TRAINING_DATA_FILE)
 
     # divide train and test

@@ -3,8 +3,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 
-from regression_model.processing import preprocessors as pp
-from regression_model.config import config
+from processing import preprocessors as pp
+from config import config
 
 price_pipe = Pipeline(
     [
