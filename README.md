@@ -11,7 +11,7 @@ Now, expanding the repo with following steps for deploying the model in producti
 
 :white_check_mark: Building Machine Learning Pipeline(Sckit-learn pipeline Architecture)
 
-:black_square_button: Model API development(Serving model through RESTful API)
+:white_check_mark: Model API development(Serving model through RESTful API)
 
 :black_square_button: Deploying to production(Web App)
 
