@@ -20,8 +20,10 @@ Now, expanding the repo with following steps for deploying the model in producti
 **Python Version:** 3.7
 
 **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, randomforest-regressor, RandomizedSearchCV, scikit-learn pipeline, pytest
-**Backend:**Flask
-**Frontend:**HTML,CSS,JS
+
+**Backend:** Flask
+
+**Frontend:** HTML,CSS,JS
 
 **Resources:** [Udemy: Deployment of Machine Learning Models][course1]
 
