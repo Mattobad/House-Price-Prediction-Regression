@@ -13,13 +13,15 @@ Now, expanding the repo with following steps for deploying the model in producti
 
 :white_check_mark: Model API development(Serving model through RESTful API)
 
-:black_square_button: Deploying to production(Web App)
+:white_check_mark: Deploying to production(Web App)
 
 
 ## Code and Resources Used
 **Python Version:** 3.7
 
 **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, randomforest-regressor, RandomizedSearchCV, scikit-learn pipeline, pytest
+**Backend:**Flask
+**Frontend:**HTML,CSS,JS
 
 **Resources:** [Udemy: Deployment of Machine Learning Models][course1]
 
