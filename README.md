@@ -9,7 +9,7 @@ Now, expanding the repo with following steps for deploying the model in producti
 
 :white_check_mark: Exploratory Analysis(Feature Engineering, Feature Selection, Hyperparameter optimization, Model development)
 
-:white_check_mark: Building Machine Learning Pipeline(Sckit-learn pipeline Architecture)
+:white_check_mark: Building Machine Learning Pipeline(Scikit-learn pipeline Architecture)
 
 :white_check_mark: Model API development(Serving model through RESTful API)
 
