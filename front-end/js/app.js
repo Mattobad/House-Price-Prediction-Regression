@@ -148,7 +148,7 @@ function onClickedPredict(){
     var json_data = JSON.stringify(user_data);
 
      //var url = "http://127.0.0.1:5000/v1/predict/regression"; 
-     var url = "/v1/predict/regression"; 
+     var url = "http://Sonjon.pythonanywhere.com/v1/predict/regression"; 
     //   var url = "/v1/predict/regression"; 
 
         // $.post(url, json_data,function(data, status) {
