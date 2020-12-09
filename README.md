@@ -3,7 +3,7 @@
 Code used for publishing the model in pythonAnywhere. For simplicity, I've removed the all the code for training the mode(pipeline).
 Repository only consists of code for front-end, packages containing flask-api and saved model with relevant methods.
 
-If you want reproduce the project, you can use requirements text file to setup an conda environment. 
+If you want reproduce the project, you can use requirements text file to setup a conda environment. 
 
 ## Code and Resources Used
 **Python Version:** 3.7
