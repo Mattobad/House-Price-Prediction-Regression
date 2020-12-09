@@ -35,8 +35,7 @@ def predict():
         print(f'User input from UI: {json_data}')
         _logger.info(f'Inputs: {json_data}')
 
-        # # step:2 Validate the input using marshmallow schema
-        #input_data,errors = validate_inputs(input_data=json_data)
+
 
         # step 3: model prediction
         result = make_prediction(input_data=json_data)
@@ -44,8 +43,6 @@ def predict():
 
         # step 4: Convert numpy ndarray to list
         predictions = round(result.get('prediction')[0],2)
-        #print(f'prediction from model ==== {predictions}')
-        #version = result.get('version')
 
         return jsonify({'prediction': predictions}), 200
         # return jsonify({'predictions': predictions,

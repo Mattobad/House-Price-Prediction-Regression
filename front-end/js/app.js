@@ -147,8 +147,9 @@ function onClickedPredict(){
 
     var json_data = JSON.stringify(user_data);
 
-     var url = "http://127.0.0.1:5000/v1/predict/regression"; //Use this if you are NOT using nginx which is first 7 tutorials
-    //   var url = "/api/predict_home_price"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
+     //var url = "http://127.0.0.1:5000/v1/predict/regression"; 
+     var url = "/v1/predict/regression"; 
+    //   var url = "/v1/predict/regression"; 
 
         // $.post(url, json_data,function(data, status) {
         //     console.log(data.prediction);
@@ -188,7 +189,8 @@ function onClickedPredict(){
 
 function onPageLoad(){
     
-    var url = "http://127.0.0.1:5000/";
+    //var url = "http://127.0.0.1:5000/";
+    var url = "/v1/predict/regression"; 
 
     $.get(url, function(response,status){
         console.log(status);

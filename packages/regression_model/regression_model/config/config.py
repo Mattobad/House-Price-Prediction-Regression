@@ -9,12 +9,14 @@ TRAINED_MODEL_DIR = PACKAGE_ROOT / "trained_models"
 DATASET_DIR = PACKAGE_ROOT / "datasets"
 
 
-# data
-TRAINING_DATA_FILE = "train.csv"
-TESTING_DATA_FILE = "test.csv"
+# # data
+# TRAINING_DATA_FILE = "train.csv"
+# TESTING_DATA_FILE = "test.csv"
 
 
 TARGET = 'SalePrice'
+
+pipeline_file_name = "rf_regression_model.pkl"
 
 # input variables 
 FEATURES = ['OverallQual','GrLivArea','GarageCars','TotalBsmtSF',
