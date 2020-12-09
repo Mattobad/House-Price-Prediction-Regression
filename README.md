@@ -15,6 +15,12 @@ Now, expanding the repo with following steps for deploying the model in producti
 
 :white_check_mark: Deploying to production(Web App)
 
+If you want reproduce the project, you can use requirements text file to setup a conda environment.
+
+App is live in the link [here.][applink]
+
+Note: Project is live through free tier from PythonAnywhere. Only the end-point of API is deployed in the PythonAnywhere server.
+
 
 ## Code and Resources Used
 **Python Version:** 3.7
@@ -28,4 +34,5 @@ Now, expanding the repo with following steps for deploying the model in producti
 **Resources:** [Udemy: Deployment of Machine Learning Models][course1]
 
 [course1]:https://www.udemy.com/course/deployment-of-machine-learning-models/
+[applink]:https://bit.ly/house-project-live
 
