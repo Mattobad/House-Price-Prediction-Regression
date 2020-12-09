@@ -5,7 +5,7 @@ can be found in the jupyter_notebooks submodule.
 - [Model buidling without Feature Selection Technique: Base Model](https://github.com/Mattobad/House-Price-Prediction-Regression/blob/master/jupyter_notebooks/End-to-End-Housing-Price-Prediction-without-feature-selection.ipynb)
 - [Model buidling with Feature Selection Technique](https://github.com/Mattobad/House-Price-Prediction-Regression/blob/master/jupyter_notebooks/End-to-End%20ML%20project%20with%20Feature%20Selection%20techniques.ipynb)
 
-Now, expanding the repo with following steps for deploying the model in production:
+Now, expanded the repo with following steps for deploying the model in production:
 
 :white_check_mark: Exploratory Analysis(Feature Engineering, Feature Selection, Hyperparameter optimization, Model development)
 
@@ -15,11 +15,11 @@ Now, expanding the repo with following steps for deploying the model in producti
 
 :white_check_mark: Deploying to production(Web App)
 
-If you want reproduce the project, you can use requirements text file to setup a conda environment.
+If you want reproduce the project, you can use requirements text file to setup a conda environment in the local machine.
 
 App is live in the link [here.][applink]
 
-Note: Project is live through free tier from PythonAnywhere. Only the end-point of API is deployed in the PythonAnywhere server.
+Note: Checkout the publishingApp branch to see the code used for deployment of the project. Project is live through free tier from PythonAnywhere. Only the end-point of API is deployed in the PythonAnywhere server.
 
 
 ## Code and Resources Used
