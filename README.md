@@ -5,6 +5,10 @@ Repository only consists of code for front-end, packages containing flask-api an
 
 If you want reproduce the project, you can use requirements text file to setup a conda environment. 
 
+App is live in link [here.][applink]
+
+Note: Project is live through free tier from Pythonanywhere. Only the end-point of API is deployed in the PythonAnywhere server. 
+
 ## Code and Resources Used
 **Python Version:** 3.7
 
@@ -14,11 +18,12 @@ If you want reproduce the project, you can use requirements text file to setup a
 
 **Frontend:** HTML,CSS,JS
 
-**Resources:** [Udemy: Deployment of Machine Learning Models][course1]
 
-[Model deployment in PythonAnywhere article][article1]
+**Resources:** 
 
-[course1]:https://www.udemy.com/course/deployment-of-machine-learning-models/
+[PythonAnywhere][source1]
 
-[article1]:https://medium.com/analytics-vidhya/how-to-deploy-simple-machine-learning-models-for-free-56cdccc62b8d
+[source1]:https://help.pythonanywhere.com/pages/Flask/
+[applink]:https://bit.ly/house-project-live
+
 
