@@ -1,9 +1,9 @@
 ### House price prediction 
 
-Code used for publishing the model in pythonAnywhere. For simplicity, I've removed the all the code for training the mode(pipeline).
+Code used for publishing the model in pythonAnywhere. For simplicity, I've removed the all the code for training the model(pipeline).
 Repository consists of frontend code in front-end module and ml_api module consists of code for flask-api and saved model.
 
-If you want reproduce the project, you can use requirements text file to setup a conda environment. 
+If you want to reproduce the project, you can use requirements text file to setup a conda environment. 
 
 App is live in link [here.][applink]
 
